@@ -11,17 +11,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T03. Zig-Zag Arrays", "T03.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T04. Array Rotation", "T04. Array Rotation\T04. Array Rotation.csproj", "{98126709-C348-43FD-B48A-985854F0B1A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T05. Top Integers", "T05. Top Integers\T05. Top Integers.csproj", "{8AB574EE-BD29-435F-B5D7-A5663407BA8B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T05. Top Integers", "T05. Top Integers\T05. Top Integers.csproj", "{8AB574EE-BD29-435F-B5D7-A5663407BA8B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T06. Equal Sum", "T06. Equal Sum\T06. Equal Sum.csproj", "{FBCFBF0B-FCDD-4CAF-A7E6-28EFB49E3A56}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T06. Equal Sum", "T06. Equal Sum\T06. Equal Sum.csproj", "{FBCFBF0B-FCDD-4CAF-A7E6-28EFB49E3A56}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T06.EqualSumRetake", "T06.EqualSumRetake\T06.EqualSumRetake.csproj", "{D4B5F22D-2970-4972-B636-B2F4F11F7B08}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T06.EqualSumRetake", "T06.EqualSumRetake\T06.EqualSumRetake.csproj", "{D4B5F22D-2970-4972-B636-B2F4F11F7B08}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T07. Max Sequence of Equal Elements", "T07. Max Sequence of Equal Elements\T07. Max Sequence of Equal Elements.csproj", "{A30FBA4C-18F9-47BF-91BE-F8CCF5DDB8E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T07. Max Sequence of Equal Elements", "T07. Max Sequence of Equal Elements\T07. Max Sequence of Equal Elements.csproj", "{A30FBA4C-18F9-47BF-91BE-F8CCF5DDB8E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T08. Magic Sum", "T08. Magic Sum\T08. Magic Sum.csproj", "{E1CF0A44-BCFA-483B-AEF0-0838F707302C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T08. Magic Sum", "T08. Magic Sum\T08. Magic Sum.csproj", "{E1CF0A44-BCFA-483B-AEF0-0838F707302C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T08. Magic Sum Retake", "T08. Magic Sum Retake\T08. Magic Sum Retake.csproj", "{031EEB26-7B64-4BCE-8216-437F08F10BA0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T08. Magic Sum Retake", "T08. Magic Sum Retake\T08. Magic Sum Retake.csproj", "{031EEB26-7B64-4BCE-8216-437F08F10BA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T09. Kamino Factory", "T09. Kamino Factory\T09. Kamino Factory.csproj", "{A42A6900-7165-4930-8878-C2BC89880667}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P.09.KaminoFactory", "P.09.KaminoFactory\P.09.KaminoFactory.csproj", "{DED9FDBF-3E19-49F6-946F-5FBE7C9DC78C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T10. LadyBugs", "T10. LadyBugs\T10. LadyBugs.csproj", "{682E49FA-0597-428E-8957-5F6BA7A2B415}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +75,18 @@ Global
 		{031EEB26-7B64-4BCE-8216-437F08F10BA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{031EEB26-7B64-4BCE-8216-437F08F10BA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{031EEB26-7B64-4BCE-8216-437F08F10BA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A42A6900-7165-4930-8878-C2BC89880667}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A42A6900-7165-4930-8878-C2BC89880667}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A42A6900-7165-4930-8878-C2BC89880667}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A42A6900-7165-4930-8878-C2BC89880667}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DED9FDBF-3E19-49F6-946F-5FBE7C9DC78C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DED9FDBF-3E19-49F6-946F-5FBE7C9DC78C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DED9FDBF-3E19-49F6-946F-5FBE7C9DC78C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DED9FDBF-3E19-49F6-946F-5FBE7C9DC78C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{682E49FA-0597-428E-8957-5F6BA7A2B415}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{682E49FA-0597-428E-8957-5F6BA7A2B415}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{682E49FA-0597-428E-8957-5F6BA7A2B415}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{682E49FA-0597-428E-8957-5F6BA7A2B415}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
