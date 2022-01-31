@@ -17,7 +17,7 @@ namespace T10._LadyBugs
 
             for (int i = 0; i < initialIndexes.Length; i++)
             {
-                if (initialIndexes[i] < fieldSize)
+                if (initialIndexes[i] < fieldSize && initialIndexes[i] >= 0)
                 {
                     filledArray[initialIndexes[i]] = 1;
                 }
@@ -33,12 +33,6 @@ namespace T10._LadyBugs
                 int ladybugIndex = int.Parse(commandArr[0]);
                 string direction = commandArr[1];
                 int flyLength = int.Parse(commandArr[2]);
-
-                if (flyLength < 0 && direction == "left")
-                {
-                    direction = "right";
-                    flyLength = Math.Abs(flyLength);
-                }
 
                 if (ladybugIndex < 0 || ladybugIndex >= filledArray.Length)
                 {
